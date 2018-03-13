@@ -19,18 +19,18 @@
     </servlet-mapping>
 
 
-   <bean class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"/>
+   <!--<bean class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"/>-->
 
-    <bean name="/hello.html" class="com.spring.demo.controller.Hello"/>
+    <!--<bean name="/hello.html" class="com.spring.demo.controller.Hello"/>-->
 
-    <bean id="viewResolver"
-          class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        <property name="prefix">
-            <value>/WEB-INF/</value>
-        </property>
-        <property name="suffix">
-            <value>.jsp</value>
-        </property>
-    </bean>
+    <!--<bean id="viewResolver"-->
+          <!--class="org.springframework.web.servlet.view.InternalResourceViewResolver">-->
+        <!--<property name="prefix">-->
+            <!--<value>/WEB-INF/</value>-->
+        <!--</property>-->
+        <!--<property name="suffix">-->
+            <!--<value>.jsp</value>-->
+        <!--</property>-->
+    <!--</bean>-->
 
 </web-app>

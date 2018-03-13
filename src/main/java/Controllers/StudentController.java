@@ -61,7 +61,7 @@ public class StudentController {
     @RequestMapping("/studata")
     public ModelAndView get5(@RequestParam("fname") String fn,@RequestParam("lname") String ln){
         StudentCO obj=new StudentCO();
-        obj.setFname(fn+"xyz");
+        obj.setFname(fn);
         obj.setLname(ln);
         ModelAndView modelAndView=new ModelAndView("studentData");
         modelAndView.addObject("objx",obj);
