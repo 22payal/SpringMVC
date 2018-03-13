@@ -19,8 +19,7 @@
     </servlet-mapping>
 
 
-
-    <bean class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"/>
+   <bean class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"/>
 
     <bean name="/hello.html" class="com.spring.demo.controller.Hello"/>
 
