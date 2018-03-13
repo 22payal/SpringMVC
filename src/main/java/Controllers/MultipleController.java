@@ -13,7 +13,7 @@ public class MultipleController extends MultiActionController {
 
     public ModelAndView first(HttpServletRequest request, HttpServletResponse response) throws Exception{
         ModelAndView modelAndView=new ModelAndView("index");
-        modelAndView.addObject("x","Archit");
+        modelAndView.addObject("x","Payal");
         return modelAndView;
     }
 
